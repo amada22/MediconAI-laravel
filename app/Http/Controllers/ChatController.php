@@ -25,7 +25,7 @@ class ChatController extends Controller
             "messages" => [
                 [
                     "role" => "system",
-                    "content" => "where is morocco "
+                    "content" => "what  is morocco "
                 ]
             ]
         ];
