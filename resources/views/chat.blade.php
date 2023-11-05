@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/log-off.css' rel='stylesheet'>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GPT Chat</title>
-    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/profile.css' rel='stylesheet'>
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
 </head>
 <body >
@@ -24,16 +24,16 @@
 
 <div class="bg-slate-100 flex flex-col justify-between items-center bg-green-900  w-16 p-4">
   <div class="flex flex-col space-y-4"> 
-    <a class="mb-3">
+    <a href="#" class="mb-3">
       <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 mr-2 hover:text-green-200 text-white" viewBox="0 0 20 20" fill="currentColor">
                   <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/><path fill-rule="evenodd" d="M4 10a2 2 0 012-2h2V6a2 2 0 012-2h2a2 2 0 012 2v2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2H6a2 2 0 01-2-2z" clip-rule="evenodd"/>
        </svg>
     </a>
     
-    <a class="hover:text-white">
+    <a href="#" class="hover:text-white">
       <svg class="w-8 hover:text-green-200  h-8 mr-2 text-white "  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 9C16 11.2091 14.2091 13 12 13C9.79086 13 8 11.2091 8 9C8 6.79086 9.79086 5 12 5C14.2091 5 16 6.79086 16 9ZM14 9C14 10.1046 13.1046 11 12 11C10.8954 11 10 10.1046 10 9C10 7.89543 10.8954 7 12 7C13.1046 7 14 7.89543 14 9Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1ZM3 12C3 14.0902 3.71255 16.014 4.90798 17.5417C6.55245 15.3889 9.14627 14 12.0645 14C14.9448 14 17.5092 15.3531 19.1565 17.4583C20.313 15.9443 21 14.0524 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12ZM12 21C9.84977 21 7.87565 20.2459 6.32767 18.9878C7.59352 17.1812 9.69106 16 12.0645 16C14.4084 16 16.4833 17.1521 17.7538 18.9209C16.1939 20.2191 14.1881 21 12 21Z" fill="currentColor" /></svg>
     <a>
-    <a>
+    <a href="#" >
     <svg class="w-8 hover:text-green-200  h-8 mr-2 text-white " viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M18 10.5C19.6569 10.5 21 11.8431 21 13.5V19.5C21 21.1569 19.6569 22.5 18 22.5H6C4.34315 22.5 3 21.1569 3 19.5V13.5C3 11.8431 4.34315 10.5 6 10.5V7.5C6 4.18629 8.68629 1.5 12 1.5C15.3137 1.5 18 4.18629 18 7.5V10.5ZM12 3.5C14.2091 3.5 16 5.29086 16 7.5V10.5H8V7.5C8 5.29086 9.79086 3.5 12 3.5ZM18 12.5H6C5.44772 12.5 5 12.9477 5 13.5V19.5C5 20.0523 5.44772 20.5 6 20.5H18C18.5523 20.5 19 20.0523 19 19.5V13.5C19 12.9477 18.5523 12.5 18 12.5Z" fill="currentColor" /></svg>
     </a>
       
@@ -68,25 +68,31 @@
   </div>
   
   <div class="flex flex-col justify-start space-y-1  items-center p-1 ">
-    
-      <div class="hover:bg-yellow-200 rounded-lg bg-yellow-100  h-14 w-60 border-green-900 border-2 items-center">
-        <div class="mt-3 text-center"><a href="#">test</a></div>
-      </div>
+  
+      <a href="#"><div class="hover:bg-green-800 rounded-lg bg-green-700  h-10 w-60 border-white border items-center text-white">
+        <div class="mt-1 ml-2 text-left ">test</div>
+      </div></a>
 
-      <div class="hover:bg-yellow-200 rounded-lg bg-yellow-100  h-14 w-60 border-green-900 border-2 items-center">
-        <div class="mt-3 text-center"><a href="#">test</a></div>
-      </div>
+      <a href="#"><div class="hover:bg-green-800 rounded-lg bg-green-700  h-10 w-60 border-white border items-center text-white">
+        <div class="mt-1 ml-2 text-left ">test</div>
+      </div></a>
+      
+      <a href="#"><div class="hover:bg-green-800 rounded-lg bg-green-700  h-10 w-60 border-white border items-center text-white">
+        <div class="mt-1 ml-2 text-left ">test</div>
+      </div></a>
 
-      <div class="hover:bg-yellow-200 rounded-lg bg-yellow-100  h-14 w-60 border-green-900 border-2 items-center">
-        <div class="mt-3 text-center"><a href="#" >test</a></div>
-      </div>
+      
   </div> 
 </div>
-<div class="flex flex-col bg-green-100 w-full space-y-2"> 
+<div class="flex flex-col bg-green-100 w-full ml-1 space-y-1"> 
 
-  <div class="h-5/6 w-full bg-green-200 border border-black rounded"></div>
+  <div class="flex flex-col items-start h-5/6 w-full bg-green-200 border border-black rounded ">
+   
+      
+    
+  </div>
 
-  <div class="flex flex-row bg-green-100 h-1/6 w-full space-x-4 items-center">
+  <div class="flex flex-row bg-green-100 h-1/6 w-full space-x-4 items-center rounded border border-black ">
     <input class="rounded-full bg-green-600 h-4/6 ml-1 w-5/6  border text-white border-black border-4  text-center" type="text">
     <button class=" rounded-full h-4/6 w-1/6 bg-green-100 ">
     <svg class="hover:bg-green-600 m-auto bg-green-100 rounded w-10 h-10 text-black" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.8543 11.9741L16.2686 10.5599L12.0259 6.31724L7.78327 10.5599L9.19749 11.9741L11.0259 10.1457V17.6828H13.0259V10.1457L14.8543 11.9741Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M1 19C1 21.2091 2.79086 23 5 23H19C21.2091 23 23 21.2091 23 19V5C23 2.79086 21.2091 1 19 1H5C2.79086 1 1 2.79086 1 5V19ZM5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21Z" fill="currentColor" /></svg>
