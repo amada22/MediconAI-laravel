@@ -17,4 +17,8 @@ Route::get('/chat', function () {
     return view('chat');
 });
 
+Route::get('/demo', function () {
+    return view('hero');
+});
+
 Route::get('/', 'App\Http\Controllers\ChatController');

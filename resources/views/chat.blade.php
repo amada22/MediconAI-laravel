@@ -85,7 +85,98 @@
   </div> 
 </div>
 <div class="flex flex-col bg-green-100 w-full ml-1 space-y-1"> 
-
+  <!-- Component Start -->
+	<div class="flex flex-col flex-grow w-full  bg-green-100 shadow-xl rounded-lg overflow-hidden">
+		<div class="flex flex-col flex-grow h-0 p-4 overflow-auto">
+			<div class="flex w-full mt-2 space-x-3 max-w-xs">
+				<div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
+				<div>
+					<div class="bg-green-600 p-3 rounded-r-lg rounded-bl-lg">
+						<p class="text-sm text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</div>
+					<span class="text-xs text-gray-500 leading-none">2 min ago</span>
+				</div>
+			</div>
+			<div class="flex w-full mt-2 space-x-3 max-w-xs ml-auto justify-end">
+				<div>
+					<div class="bg-green-600 text-white p-3 rounded-l-lg rounded-br-lg">
+						<p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+					</div>
+					<span class="text-xs text-gray-500 leading-none">2 min ago</span>
+				</div>
+				<div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
+			</div>
+			<div class="flex w-full mt-2 space-x-3 max-w-xs ml-auto justify-end">
+				<div>
+					<div class="bg-blue-600 text-white p-3 rounded-l-lg rounded-br-lg">
+						<p class="text-sm">Lorem ipsum dolor sit amet.</p>
+					</div>
+					<span class="text-xs text-gray-500 leading-none">2 min ago</span>
+				</div>
+				<div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
+			</div>
+			<div class="flex w-full mt-2 space-x-3 max-w-xs">
+				<div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
+				<div>
+					<div class="bg-gray-300 p-3 rounded-r-lg rounded-bl-lg">
+						<p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					</div>
+					<span class="text-xs text-gray-500 leading-none">2 min ago</span>
+				</div>
+			</div>
+			<div class="flex w-full mt-2 space-x-3 max-w-xs ml-auto justify-end">
+				<div>
+					<div class="bg-blue-600 text-white p-3 rounded-l-lg rounded-br-lg">
+						<p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					</div>
+					<span class="text-xs text-gray-500 leading-none">2 min ago</span>
+				</div>
+				<div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
+			</div>
+			<div class="flex w-full mt-2 space-x-3 max-w-xs ml-auto justify-end">
+				<div>
+					<div class="bg-blue-600 text-white p-3 rounded-l-lg rounded-br-lg">
+						<p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+					</div>
+					<span class="text-xs text-gray-500 leading-none">2 min ago</span>
+				</div>
+				<div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
+			</div>
+			<div class="flex w-full mt-2 space-x-3 max-w-xs ml-auto justify-end">
+				<div>
+					<div class="bg-blue-600 text-white p-3 rounded-l-lg rounded-br-lg">
+						<p class="text-sm">Lorem ipsum dolor sit amet.</p>
+					</div>
+					<span class="text-xs text-gray-500 leading-none">2 min ago</span>
+				</div>
+				<div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
+			</div>
+			<div class="flex w-full mt-2 space-x-3 max-w-xs">
+				<div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
+				<div>
+					<div class="bg-gray-300 p-3 rounded-r-lg rounded-bl-lg">
+						<p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					</div>
+					<span class="text-xs text-gray-500 leading-none">2 min ago</span>
+				</div>
+			</div>
+			<div class="flex w-full mt-2 space-x-3 max-w-xs ml-auto justify-end">
+				<div>
+					<div class="bg-blue-600 text-white p-3 rounded-l-lg rounded-br-lg">
+						<p class="text-sm">Lorem ipsum dolor sit.</p>
+					</div>
+					<span class="text-xs text-gray-500 leading-none">2 min ago</span>
+				</div>
+				<div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
+			</div>
+		</div>
+		
+		<div class="bg-green-200 p-4">
+			<input class="flex items-center h-10 w-full rounded px-3 text-sm" type="text" placeholder="Type your message…">
+		</div>
+	</div>
+	<!-- Component End  -->
+<!--
   <div class="flex flex-col items-start h-5/6 w-full bg-green-200 border border-black rounded ">
    
       
@@ -93,11 +184,12 @@
   </div>
 
   <div class="flex flex-row bg-green-100 h-1/6 w-full space-x-4 items-center rounded border border-black ">
+
     <input class="rounded-full bg-green-600 h-4/6 ml-1 w-5/6  border text-white border-black border-4  text-center" type="text">
     <button class=" rounded-full h-4/6 w-1/6 bg-green-100 ">
     <svg class="hover:bg-green-600 m-auto bg-green-100 rounded w-10 h-10 text-black" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.8543 11.9741L16.2686 10.5599L12.0259 6.31724L7.78327 10.5599L9.19749 11.9741L11.0259 10.1457V17.6828H13.0259V10.1457L14.8543 11.9741Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M1 19C1 21.2091 2.79086 23 5 23H19C21.2091 23 23 21.2091 23 19V5C23 2.79086 21.2091 1 19 1H5C2.79086 1 1 2.79086 1 5V19ZM5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21Z" fill="currentColor" /></svg>
     </button>
-  </div>
+  </div> -->
 </div>
 
 </body>
