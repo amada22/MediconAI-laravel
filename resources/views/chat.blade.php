@@ -84,91 +84,12 @@
       
   </div> 
 </div>
-<div class="flex flex-col bg-green-100 w-full ml-1 space-y-1"> 
+<div class="flex flex-col bg-green-100 w-full ml-1 space-y-1" id="chatContainer"> 
   <!-- Component Start -->
 	<div class="flex flex-col flex-grow w-full  bg-green-100 shadow-xl rounded-lg overflow-hidden">
 		<div class="flex flex-col flex-grow h-0 p-4 overflow-auto">
-			<div class="flex w-full mt-2 space-x-3 max-w-xs">
-				<div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
-				<div>
-					<div class="bg-green-600 p-3 rounded-r-lg rounded-bl-lg">
-						<p class="text-sm text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					</div>
-					<span class="text-xs text-gray-500 leading-none">2 min ago</span>
-				</div>
-			</div>
-			<div class="flex w-full mt-2 space-x-3 max-w-xs ml-auto justify-end">
-				<div>
-					<div class="bg-green-600 text-white p-3 rounded-l-lg rounded-br-lg">
-						<p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-					</div>
-					<span class="text-xs text-gray-500 leading-none">2 min ago</span>
-				</div>
-				<div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
-			</div>
-			<div class="flex w-full mt-2 space-x-3 max-w-xs ml-auto justify-end">
-				<div>
-					<div class="bg-blue-600 text-white p-3 rounded-l-lg rounded-br-lg">
-						<p class="text-sm">Lorem ipsum dolor sit amet.</p>
-					</div>
-					<span class="text-xs text-gray-500 leading-none">2 min ago</span>
-				</div>
-				<div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
-			</div>
-			<div class="flex w-full mt-2 space-x-3 max-w-xs">
-				<div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
-				<div>
-					<div class="bg-gray-300 p-3 rounded-r-lg rounded-bl-lg">
-						<p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-					</div>
-					<span class="text-xs text-gray-500 leading-none">2 min ago</span>
-				</div>
-			</div>
-			<div class="flex w-full mt-2 space-x-3 max-w-xs ml-auto justify-end">
-				<div>
-					<div class="bg-blue-600 text-white p-3 rounded-l-lg rounded-br-lg">
-						<p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-					</div>
-					<span class="text-xs text-gray-500 leading-none">2 min ago</span>
-				</div>
-				<div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
-			</div>
-			<div class="flex w-full mt-2 space-x-3 max-w-xs ml-auto justify-end">
-				<div>
-					<div class="bg-blue-600 text-white p-3 rounded-l-lg rounded-br-lg">
-						<p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-					</div>
-					<span class="text-xs text-gray-500 leading-none">2 min ago</span>
-				</div>
-				<div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
-			</div>
-			<div class="flex w-full mt-2 space-x-3 max-w-xs ml-auto justify-end">
-				<div>
-					<div class="bg-blue-600 text-white p-3 rounded-l-lg rounded-br-lg">
-						<p class="text-sm">Lorem ipsum dolor sit amet.</p>
-					</div>
-					<span class="text-xs text-gray-500 leading-none">2 min ago</span>
-				</div>
-				<div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
-			</div>
-			<div class="flex w-full mt-2 space-x-3 max-w-xs">
-				<div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
-				<div>
-					<div class="bg-gray-300 p-3 rounded-r-lg rounded-bl-lg">
-						<p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-					</div>
-					<span class="text-xs text-gray-500 leading-none">2 min ago</span>
-				</div>
-			</div>
-			<div class="flex w-full mt-2 space-x-3 max-w-xs ml-auto justify-end">
-				<div>
-					<div class="bg-blue-600 text-white p-3 rounded-l-lg rounded-br-lg">
-						<p class="text-sm">Lorem ipsum dolor sit.</p>
-					</div>
-					<span class="text-xs text-gray-500 leading-none">2 min ago</span>
-				</div>
-				<div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
-			</div>
+			
+			
 		</div>
 		
 		<div class="bg-green-200 p-4">
@@ -191,6 +112,70 @@
     </button>
   </div> -->
 </div>
+
+<script>
+  // Function to add a user message and generate an automatic reply
+  function sendMessage(message) {
+    // Create a new user message
+    const userMessage = `
+      <div class="flex w-full mt-2 space-x-3 max-w-xs">
+        <div class="flex-shrink-0 h-10 w-10 rounded-full bg-green-800">
+		<svg class="w-8 hover:text-green-200 h-10 w-10 mr-2 text-white "  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 9C16 11.2091 14.2091 13 12 13C9.79086 13 8 11.2091 8 9C8 6.79086 9.79086 5 12 5C14.2091 5 16 6.79086 16 9ZM14 9C14 10.1046 13.1046 11 12 11C10.8954 11 10 10.1046 10 9C10 7.89543 10.8954 7 12 7C13.1046 7 14 7.89543 14 9Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1ZM3 12C3 14.0902 3.71255 16.014 4.90798 17.5417C6.55245 15.3889 9.14627 14 12.0645 14C14.9448 14 17.5092 15.3531 19.1565 17.4583C20.313 15.9443 21 14.0524 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12ZM12 21C9.84977 21 7.87565 20.2459 6.32767 18.9878C7.59352 17.1812 9.69106 16 12.0645 16C14.4084 16 16.4833 17.1521 17.7538 18.9209C16.1939 20.2191 14.1881 21 12 21Z" fill="currentColor" /></svg>
+
+		</div>
+        <div>
+          <div class="bg-green-600 p-3 rounded-r-lg rounded-bl-lg">
+            <p class="text-sm text-white">${message}</p>
+          </div>
+          <span class="text-xs text-gray-500 leading-none">Now</span>
+        </div>
+      </div>
+    `;
+
+    // Add the user message to the top of the chat container
+    document.getElementById('chatContainer').insertAdjacentHTML('afterbegin', userMessage);
+
+    // Simulate an automatic reply after a short delay
+    setTimeout(() => {
+      const replyMessage = `
+        <div class="flex w-full mt-2 space-x-3 max-w-xs ml-auto justify-end">
+          <div>
+            <div class="bg-green-600 text-white p-3 rounded-l-lg rounded-br-lg">
+              <p class="text-sm">This is an automatic reply.</p>
+            </div>
+            <span class="text-xs text-gray-500 leading-none">Now</span>
+          </div>
+          <div class="flex-shrink-0 h-10 w-10 rounded-full bg-green-800">
+		  <svg xmlns="http://www.w3.org/2000/svg" class="m-auto w-8 hover:text-green-200 h-10 w-10 mr-2 text-white " viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/><path fill-rule="evenodd" d="M4 10a2 2 0 012-2h2V6a2 2 0 012-2h2a2 2 0 012 2v2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2H6a2 2 0 01-2-2z" clip-rule="evenodd"/>
+           </svg> 
+		  </div>
+        </div>
+      `;
+
+      // Add the automatic reply to the top of the chat container
+      document.getElementById('chatContainer').insertAdjacentHTML('afterbegin', replyMessage);
+    }, 1000); // Delay in milliseconds
+  }
+
+  // Function to handle user input
+  function handleInput() {
+    const inputElement = document.querySelector('input');
+    const message = inputElement.value.trim();
+
+    if (message !== '') {
+      sendMessage(message);
+      inputElement.value = ''; // Clear the input field
+    }
+  }
+
+  // Attach an event listener to the input field for handling user input
+  document.querySelector('input').addEventListener('keydown', function (event) {
+    if (event.key === 'Enter') {
+      handleInput();
+    }
+  });
+</script>
 
 </body>
 </html>
